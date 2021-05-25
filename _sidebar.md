@@ -21,4 +21,4 @@
 
 * 其他
 
-  * [使用docsify搭建文档类型的网站](./docs/how-to-use-docsify.md)
+  * [使用docsify搭建文档类型的网站](docs/x-1how-to-use-docsify.md)
