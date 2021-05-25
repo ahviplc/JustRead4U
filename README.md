@@ -27,6 +27,17 @@
 - u-na Github：https://github.com/ahviplc/u-na
 - u-na Gitee：https://gitee.com/ahviplc/u-na
 
+### 扩展
+
+`引入图片` `加速` `使用外网`
+
+```markdown
+![](https://raw.fastgit.org/ahviplc/JustRead4U/master/images/x-1/1.jpg)
+![](https://github.bajins.com/ahviplc/JustRead4U/raw/master/images/x-1/1.jpg)
+![](https://cdn.jsdelivr.net/gh/ahviplc/JustRead4U@master/images/x-1/1.jpg)
+![](https://cdn.staticaly.com/gh/ahviplc/JustRead4U/master/images/x-1/1.jpg)
+```
+
 ## 感谢
 
 > 感谢JavaGuide哥 其Github：https://github.com/Snailclimb
