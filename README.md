@@ -1,6 +1,6 @@
 # JustRead4U
 
-`JustRead4U`
+`JustRead4U-为自己而读`
 
 <img src="http://bpic.588ku.com/element_origin_min_pic/17/11/08/bdd88d667ce28b0e39aaf931511fe371.jpg" alt="READ" style="zoom:80%;" align="center"/>
 
@@ -9,7 +9,7 @@
 
 ## 一个在线学习文档
 
-> 为自己而读.
+> JustRead4U-为自己而读.
 
 - JavaGuide-Interview 面试突击版 在线阅读地址：https://snailclimb.gitee.io/javaguide-interview/#/
 - JavaGuide 在线阅读地址：https://snailclimb.gitee.io/javaguide/#/
