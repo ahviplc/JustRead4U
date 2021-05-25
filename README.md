@@ -37,6 +37,56 @@
 
 > https://gitee.com/ahviplc/JustRead4U/blob/master/docs/x-1how-to-use-docsify.md
 
+## 部署在阿里云
+
+`centos服务器` `部署步骤` `端口8099`
+
+```bash
+1. 安装git
+sudo yum install -y git
+
+2. 安装nodejs
+sudo yum install nodejs
+
+3. 新建一个文件夹：
+mkdir -p /home/JustRead4U
+
+4. cd 进去
+cd /home/JustRead4U
+
+5. clone项目
+git clone https://github.com/ahviplc/JustRead4U.git
+
+6 cd 进去
+cd /home/JustRead4U/JustRead4U
+
+7. 安装docsify(使用npm)
+npm i docsify-cli -g
+
+8. 运行 docsify serve
+docsify serve --port 8099
+
+9. 后台运行 nohup
+nohup docsify serve --port 8099 > docsify.log 2>&1& echo $! > docsify.pid
+
+10. 停止
+kill `cat docsify.pid`
+
+11. 查询端口(docsify.pid里就是端口) 再kill停止
+netstat -tunlp | grep 402595
+kill 402595
+
+12. 下面是运行日志
+Serving /home/JustRead4U/JustRead4U now.
+Listening at http://localhost:8099
+```
+
+`外网访问我` `JustRead4U` `端口8099`
+
+> > http://106.14.212.65:8099/#/
+
+> > http://oneplusone.vip:8099/#/
+
 ## 作者介绍
 
 `ahviplc (ahviplc!~LC) · GitHub`
