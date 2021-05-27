@@ -1,9 +1,12 @@
 #!/bin/sh
-echo " ==== 开始了 up2date ==== "
+echo " ==== 开始了 up2date.sh ==== "
 echo " ==== 开始拉取仓库最新代码 ==== "
 cd /home/JustRead4U/JustRead4U;
 echo " ==== pwd ==== "
 pwd;
+echo " ==== 设置git config user.name user.email ==== "
+git config --global user.name 'ahviplc'
+git config --global user.email 'ahlc@sina.cn'
 echo " ==== 设置远程仓库github gitee ==== "
 git remote add origin https://github.com/ahviplc/JustRead4U.git
 git remote add origin-gitee https://gitee.com/ahviplc/JustRead4U.git
