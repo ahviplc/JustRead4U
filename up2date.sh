@@ -30,4 +30,4 @@ cat docsify.pid
 echo " ==== docsify.log ==== "
 cat docsify.log
 echo " ==== 扩展操作 你可以执行:【netstat -tunlp | grep `cat docsify.pid`】查其进程==== "
-echo " ==== 结束了 up2date ==== "
+echo " ==== 结束了 up2date.sh ==== "

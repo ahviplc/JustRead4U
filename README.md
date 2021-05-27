@@ -4,9 +4,21 @@
 
 <img src="http://bpic.588ku.com/element_origin_min_pic/17/11/08/bdd88d667ce28b0e39aaf931511fe371.jpg" alt="READ" style="zoom:80%;" align="center"/>
 
+[docsify - npm](https://www.npmjs.com/package/docsify)
+
+[GitHub - docsifyjs/docsify: 🃏 A magical documentation site generator.](https://github.com/docsifyjs/docsify)
+
+`JustRead4U的docsify版本`
+
 [JustRead4U-GitHub](https://github.com/ahviplc/JustRead4U)
 
 [JustRead4U-Gitee](https://gitee.com/ahviplc/JustRead4U)
+
+`JustRead4U的vuepress版本`
+
+[JustRead4U-vp-GitHub](https://github.com/ahviplc/JustRead4U-vp)
+
+[JustRead4U-vp-Gitee](https://gitee.com/ahviplc/JustRead4U-vp)
 
 ## 一个在线学习文档
 
