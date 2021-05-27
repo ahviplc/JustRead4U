@@ -4,8 +4,15 @@ echo " ==== 开始拉取仓库最新代码 ==== "
 cd /home/JustRead4U/JustRead4U;
 echo " ==== pwd ==== "
 pwd;
-echo " ==== git pull ==== "
-git pull origin master;
+echo " ==== 设置远程仓库github gitee ==== "
+git remote add origin https://github.com/ahviplc/JustRead4U.git
+git remote add origin-gitee https://gitee.com/ahviplc/JustRead4U.git
+echo " ==== git remote -v ==== "
+git remote -v
+# echo " ==== git pull from github ==== "
+# git pull origin master;
+echo " ==== git pull from gitee 默认使用gitee 速度快==== "
+git pull origin-gitee master;
 echo " ==== git status ==== "
 git status;
 echo " ==== git log ====  "

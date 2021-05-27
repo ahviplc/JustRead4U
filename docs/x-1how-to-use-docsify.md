@@ -8,7 +8,7 @@
 
 ## 一.前置条件
 
-1. 确保自己电脑下载安装了 NPM 并且使用这个命令： `npm i docsify-cli -g`安装了 docsify-cli 这个工具 。
+1. 确保自己电脑下载安装了 NPM 并且使用这个命令： `npm i docsify-cli -g` 安装了 docsify-cli 这个工具 。
 2. 确保自己有一个 Github 账号（码云账号为非必选项，有的话更好）。
 
 ## 二.初始化项目并预览
